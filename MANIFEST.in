@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qasr *.css
+recursive-include qasr *.csv
+recursive-include qasr *.html
+recursive-include qasr *.ico
+recursive-include qasr *.js
+recursive-include qasr *.json
+recursive-include qasr *.md
+recursive-include qasr *.png
+recursive-include qasr *.py
+recursive-include qasr *.svg
+recursive-include qasr *.txt
+recursive-exclude qasr *.pyc
